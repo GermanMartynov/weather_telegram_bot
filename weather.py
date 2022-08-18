@@ -1,6 +1,6 @@
 import requests                         # простая и элегантная HTML библиотека для людей
 from pprint import pprint               # печать красиво отформатированного jsom 
-from config import open_weather_token   # импорт токена от API openweather из файла congig.py
+from bot_config import open_weather_token   # импорт токена от API openweather из файла congig.py
 from datetime import datetime           
 
 def get_weather(city, token):
