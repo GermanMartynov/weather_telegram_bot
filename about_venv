@@ -1,0 +1,8 @@
+Создать виртуальную среду на python3.10
+
+    python3.10 -m venv venv
+
+Активировать виртуальное окружение
+
+    source venv/bin/activate
+
